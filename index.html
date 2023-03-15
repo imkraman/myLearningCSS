@@ -1,0 +1,103 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>MyLearning_CSS</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/style.css" />
+
+        <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans"
+        rel="stylesheet" />
+
+	</head>
+	<body>
+		<h2>Welcome to MyLearning_CSS</h3>
+        <h3>All unique css rule in one place.</h3>
+
+        <p class="purple">HTML define structure and semantics.<br>
+            Layout: putting things in the right place with respect to viewport and one-another.   
+            <br>
+            Modern layout tools like flexbox, CSS grid, and positioning, and some of the legacy techniques you might still want to know about.<br>
+            CSS: neither a programming lang. nor markup lang. ~ rather it's a style sheet lang
+        </p>
+
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" width="180px" height="120px">
+        
+        <p style="text-align: center;"> This can also be called Anatomy of a CSS ruleset </p>
+
+        <p>5 Selectors Types: element , id, class, attribute ~ eg. img[src] , pseudo-class ~ eg. a:hover
+        </p>
+
+        <p class="must">#Since <html> is the parent element of the whole page, all elements inside it inherit the same font-size and font-family.
+        </p>
+
+        <p class="ruleset" > Text Style: font-size, text-align, line-height, line-spacing, 
+        <span class="text-shadow">text-shadow: 3px(horizonral offset) 3px(vertical offset) 1px(blur radius) black(base color), </span></p>
+
+        <p class="must">#Spelling: center, pseudo</p>
+
+        <div class="box-ruleset">
+            <p>Box layout Style: width, margin, padding, border, background</p>
+            <p>padding: 0 15px 10px 15px :- This means clockwise order- top, right, bottom, left 
+                (same apply for margin)<br><br>
+            margin: 10px auto :- this means 10px for top-bottom(vertical) and auto(split into two equal half) for left-right
+            (horizontal)
+            </p>
+        </div>
+
+        <p class="must">#body is block element means taking space on the page and img is inline element and img widht must less than body width to avoid spilling</p>
+
+        <h3>CSS structured : Now ↓</h3>
+        <pre>
+         <code>
+        Two main things: writing stylesheet and selectors.
+        Eternal css : &lt;link href="./style.css" rel="stylesheet"&gt;
+        Internal css : &lt;head&gt;... &lt;style&gt;... &lt; /style&gt; &lt; /head &gt;
+        Inline css : &lt;h1 style="margin: 10px; padding: 10px" &gt; &lt; /h1 &gt;
+         </code>
+        </pre>
+
+        <p>To insert the piece of Html code, we can use pre tag with code tag</p>
+        <p>angle brackets (< and >), ampersands (&), and quotation marks (" and ') are special charcters, so to include these we use HTML entity</p>
+        <p>These special charcters are unicode charcters: Unicode characters are a standardized set of code points that represent every character in the world's writing systems (different languages, scripts, and symbols), as well as special characters, and can be represented using different encodings.</p>
+
+
+
+
+
+		<div id="time">Time right now: <span></span></div>
+
+        <!--------------------------------------------------->
+
+        <h4>FlexBox</h4>
+        <div class="flexbox">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+
+        <h4>Grid</h4>
+        <div class="grid">
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+            <div>six</div>
+        </div>
+
+        <h4>Animation</h4>
+        <div class="animation">
+
+        </div>
+
+
+
+
+		<script src="/script.js"></script>
+	</body>
+</html>
